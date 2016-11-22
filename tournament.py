@@ -43,9 +43,9 @@ def start_game():
         print('Представьтесь, пожалуйста: ', end = '')
         hero = Hero(input())
 
-        dragon_number = 3
+        dragon_number = 4
         dragon_list = generate_dragon_list(dragon_number)
-        assert(len(dragon_list) == 3)
+        assert(len(dragon_list) == 4)
         print('У Вас на пути', dragon_number, 'драконов!')
         game_tournament(hero, dragon_list)
 
